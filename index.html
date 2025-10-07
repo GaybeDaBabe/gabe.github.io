@@ -1,56 +1,62 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1" /> 
-    <title> Gabe's Starting Page </title>
-    <link rel="stylesheet" href="style.css">
-  </head>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gabe’s Starting Page</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html" aria-current="page">Home</a> |
+      <a href="about.html">About</a> |
+      <a href="motorcycles.html">Motorcycles</a>
+    </nav>
+  </header>
 
-  <body>
-    <header class="container">
-      
-      <nav>
-        <a href="index.html"> Home</a>
-        <a href="about.html"> More Gabe</a>
-        <a href="motorcycles.html"> Gabe's Bikes</a>
-      </nav>
-    </header>
-    <main class="container">
-      <section id="hero">
-        <h1 id="main-title"> This is a website about all things abe.</h1>
-      </section>
+  <main>
+    <h1 id="main-title">All Things Gabe</h1>
+    <p>Welcome to my site—audio, video, and projects live here.</p>
 
-      <section class="card">
-        
-      </section>
+    <h2>Why Gabe Is Awesome</h2>
+    <p>Here are a few highlights:</p>
+    <ol class="highlight-list">
+      <li>Owns a pet raccoon named Jenny.</li>
+      <li>Plays the piano and guitar.</li>
+      <li>Restores and rides vintage motorcycles.</li>
+      <li>Drives a 2000 Dodge Dakota Sport.</li>
+    </ol>
+
+    <h2>Listen & Watch</h2>
+    <p>Quick media demo:</p>
     <audio controls preload="metadata">
         <source src="assets/audio/sus.mp3" type="audio/mpeg">
-      </audio>
-        <p> Gabe is awesome and here are just a few reasons why.</p>
-        <ol>
-            <li> Gabe owns a pet raccoon named Jenny.</li>
-            <li> Gabe plays the piano and guitar.</li>
-            <li> Gabe restores and rides vintage motorcycles.</li>
-            <li> Gabe has a sweet 2000 Dodge Dakota sport truck.</li>
-        </ol>
-    <iframe
-  width="560" height="315"
-  src="https://www.youtube-nocookie.com/embed/BBTOVK3k1Dk?si=HDG3CLi_OCiedrYn&autoplay=0&rel=0&mute=1"
-  title="YouTube video"
-  frameborder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-  allowfullscreen>
-</iframe>
-    <h1> Click one of these links to learn more about Gabe.</h1>
-        <a href="./about.html" title="Visit More About Gabe and His Awesomness">More About Gabe and His Awesomeness</a>
-        <a href="./motorcycles.html" title="Visit Gabe's Motorcycles and More">More About Gabe and His Motorcycles</a>
-  </body>
-  </html>
+    </audio>
 
+    <div class="video-container">
+      <iframe
+        width="560" height="315"
+        src="https://www.youtube-nocookie.com/embed/BBT0V3KldDx?rel=0&mute=1"
+        title="YouTube video"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen>
+      </iframe>
+    </div>
 
+    <h3>Explore</h3>
+    <ul>
+      <li><a href="about.html" title="Learn more about Gabe">More About Gabe</a></li>
+      <li><a href="motorcycles.html" title="See the motorcycles">Gabe’s Motorcycles</a></li>
+    </ul>
+  </main>
 
-
+  <footer>
+    <p>&copy; 2025 Gabe</p>
+  </footer>
+</body>
+</html>
 
 
 
