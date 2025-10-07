@@ -46,7 +46,8 @@ th, td {
   padding: 0.5rem;
   text-align: center;
 }
-
+tbody td:first-child { width: 45%; }
+  
 .video-container {
   display: flex;
   justify-content: center;
